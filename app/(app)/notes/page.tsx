@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 'use client';
 // app/(app)/notes/page.tsx
 import { useState, useEffect, useCallback } from 'react';
@@ -34,7 +35,7 @@ function MessageSquareIcon() { return <svg width="14" height="14" viewBox="0 0 2
 
 const EMPTY_FORM = { title: '', type: 'general' as NoteType, tags: '' };
 
-export default function NotesPage() {
+function NotesPageContent() {
   const [notes, setNotes] = useState<Note[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
@@ -303,3 +304,5 @@ export default function NotesPage() {
     </div>
   );
 }
+
+export default function NotesPage() { return <Suspense fallback={<div>Loading...</div>}><NotesPageContent /></Suspense>; }

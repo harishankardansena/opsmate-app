@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 'use client';
 // app/(app)/tasks/page.tsx
 import { useState, useEffect, useCallback, useRef } from 'react';
@@ -36,7 +37,7 @@ const PRIORITY_CONFIG: Record<Priority, { label: string; color: string }> = {
 
 const EMPTY_FORM = { title: '', description: '', status: 'pending' as Status, priority: 'medium' as Priority, dueDate: '', dueTime: '', tags: '' };
 
-export default function TasksPage() {
+function TasksPageContent() {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
@@ -333,3 +334,5 @@ export default function TasksPage() {
     </div>
   );
 }
+
+export default function TasksPage() { return <Suspense fallback={<div>Loading...</div>}><TasksPageContent /></Suspense>; }

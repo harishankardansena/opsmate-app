@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 'use client';
 // app/(app)/leads/page.tsx
 import { useState, useEffect, useCallback } from 'react';
@@ -34,7 +35,7 @@ const STATUS_CONFIG: Record<LeadStatus, { label: string; color: string; bg: stri
 const PIPELINE: LeadStatus[] = ['new', 'contacted', 'follow_up', 'interested', 'converted', 'lost'];
 const EMPTY_FORM = { name: '', phone: '', email: '', company: '', designation: '', source: 'cold_call' as LeadSource, status: 'new' as LeadStatus, notes: '', value: '' };
 
-export default function LeadsPage() {
+function LeadsPageContent() {
   const [leads, setLeads] = useState<Lead[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
@@ -283,3 +284,5 @@ export default function LeadsPage() {
     </div>
   );
 }
+
+export default function LeadsPage() { return <Suspense fallback={<div>Loading...</div>}><LeadsPageContent /></Suspense>; }

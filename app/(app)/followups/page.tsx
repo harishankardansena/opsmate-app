@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 'use client';
 // app/(app)/followups/page.tsx
 import { useState, useEffect, useCallback } from 'react';
@@ -36,7 +37,7 @@ const STATUS_CONFIG: Record<FollowUpStatus, { label: string; color: string; icon
 
 const EMPTY_FORM = { contactName: '', contactPhone: '', contactEmail: '', type: 'call' as FollowUpType, status: 'pending' as FollowUpStatus, scheduledAtDate: '', scheduledAtTime: '', notes: '' };
 
-export default function FollowUpsPage() {
+function FollowUpsPageContent() {
   const [followups, setFollowups] = useState<FollowUp[]>([]);
   const [loading, setLoading] = useState(true);
   const [filterMode, setFilterMode] = useState<'all' | 'today' | 'overdue'>('all');
@@ -248,3 +249,5 @@ export default function FollowUpsPage() {
     </div>
   );
 }
+
+export default function FollowUpsPage() { return <Suspense fallback={<div>Loading...</div>}><FollowUpsPageContent /></Suspense>; }
