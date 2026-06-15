@@ -1,0 +1,9 @@
+{"timestamp":"2026-06-15T16:47:52.434Z","level":"error","message":"Registration error","data":{"code":"ECONNREFUSED","syscall":"querySrv","hostname":"_mongodb._tcp.bantydansena.mj3bbyd.mongodb.net"}}
+{"timestamp":"2026-06-15T16:47:56.125Z","level":"error","message":"Registration error","data":{"code":"ECONNREFUSED","syscall":"querySrv","hostname":"_mongodb._tcp.bantydansena.mj3bbyd.mongodb.net"}}
+{"timestamp":"2026-06-15T16:47:57.058Z","level":"error","message":"Registration error","data":{"code":"ECONNREFUSED","syscall":"querySrv","hostname":"_mongodb._tcp.bantydansena.mj3bbyd.mongodb.net"}}
+{"timestamp":"2026-06-15T16:53:42.388Z","level":"error","message":"Registration error","data":{"code":"ECONNREFUSED","syscall":"querySrv","hostname":"_mongodb._tcp.bantydansena.mj3bbyd.mongodb.net"}}
+{"timestamp":"2026-06-15T16:57:13.126Z","level":"error","message":"Registration error","data":{"code":"ECONNREFUSED","syscall":"querySrv","hostname":"_mongodb._tcp.bantydansena.mj3bbyd.mongodb.net"}}
+{"timestamp":"2026-06-15T17:00:33.635Z","level":"error","message":"Registration error","data":{"code":"ECONNREFUSED","syscall":"querySrv","hostname":"_mongodb._tcp.bantydansena.mj3bbyd.mongodb.net"}}
+{"timestamp":"2026-06-15T17:02:59.071Z","level":"error","message":"Registration error","data":{"code":"ECONNREFUSED","syscall":"querySrv","hostname":"_mongodb._tcp.bantydansena.mj3bbyd.mongodb.net"}}
+{"timestamp":"2026-06-15T17:05:38.195Z","level":"error","message":"Registration error","data":{"code":"ECONNREFUSED","syscall":"querySrv","hostname":"_mongodb._tcp.bantydansena.mj3bbyd.mongodb.net"}}
+{"timestamp":"2026-06-15T17:10:02.696Z","level":"error","message":"Registration error","data":{}}

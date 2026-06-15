@@ -1,0 +1,21 @@
+{"timestamp":"2026-06-15T17:30:24.726Z","level":"activity","message":"New user registered","userId":"6a3036b0ac64e3688db7b1a2","module":"auth","data":{"email":"opsmateadmin@gmail.com","role":"admin"}}
+{"timestamp":"2026-06-15T17:30:42.825Z","level":"activity","message":"User logged in","userId":"6a3036b0ac64e3688db7b1a2","module":"auth","data":{"email":"opsmateadmin@gmail.com"}}
+{"timestamp":"2026-06-15T17:30:52.655Z","level":"activity","message":"User logged in","userId":"6a3036b0ac64e3688db7b1a2","module":"auth","data":{"email":"opsmateadmin@gmail.com"}}
+{"timestamp":"2026-06-15T17:32:51.572Z","level":"activity","message":"New user registered","userId":"6a303743ac64e3688db7b1a3","module":"auth","data":{"email":"harishankar24082003@gmail.com","role":"user"}}
+{"timestamp":"2026-06-15T17:33:14.957Z","level":"activity","message":"User logged in","userId":"6a303743ac64e3688db7b1a3","module":"auth","data":{"email":"harishankar24082003@gmail.com"}}
+{"timestamp":"2026-06-15T17:34:01.120Z","level":"activity","message":"Document uploaded","userId":"6a303743ac64e3688db7b1a3","module":"documents","data":{"name":"Progeny ADD -Step (2).pdf"}}
+{"timestamp":"2026-06-15T17:36:35.599Z","level":"activity","message":"AI chat","userId":"6a303743ac64e3688db7b1a3","module":"ai-chat","data":{"status":"offline"}}
+{"timestamp":"2026-06-15T17:40:16.290Z","level":"activity","message":"AI chat","userId":"6a303743ac64e3688db7b1a3","module":"ai-chat","data":{"status":"groq"}}
+{"timestamp":"2026-06-15T17:44:18.497Z","level":"activity","message":"AI chat","userId":"6a303743ac64e3688db7b1a3","module":"ai-chat","data":{"status":"offline"}}
+{"timestamp":"2026-06-15T17:46:01.070Z","level":"activity","message":"AI email generated","userId":"6a303743ac64e3688db7b1a3","module":"email-assistant","data":{"type":"follow_up","status":"groq"}}
+{"timestamp":"2026-06-15T17:46:56.304Z","level":"activity","message":"AI chat","userId":"6a303743ac64e3688db7b1a3","module":"ai-chat","data":{"status":"groq"}}
+{"timestamp":"2026-06-15T17:47:57.170Z","level":"activity","message":"Task created","userId":"6a303743ac64e3688db7b1a3","module":"tasks","data":{"title":"call"}}
+{"timestamp":"2026-06-15T17:48:10.683Z","level":"activity","message":"Task updated","userId":"6a303743ac64e3688db7b1a3","module":"tasks","data":{"id":"6a303acc4e497b7d7087e0c6","status":"in_progress"}}
+{"timestamp":"2026-06-15T17:48:10.701Z","level":"activity","message":"Task updated","userId":"6a303743ac64e3688db7b1a3","module":"tasks","data":{"id":"6a303acc4e497b7d7087e0c6","status":"in_progress"}}
+{"timestamp":"2026-06-15T17:48:20.756Z","level":"activity","message":"Task updated","userId":"6a303743ac64e3688db7b1a3","module":"tasks","data":{"id":"6a303acc4e497b7d7087e0c6","status":"completed"}}
+{"timestamp":"2026-06-15T17:55:26.045Z","level":"activity","message":"AI chat","userId":"6a3036b0ac64e3688db7b1a2","module":"ai-chat","data":{"status":"groq"}}
+{"timestamp":"2026-06-15T17:56:40.891Z","level":"activity","message":"AI chat","userId":"6a3036b0ac64e3688db7b1a2","module":"ai-chat","data":{"status":"offline"}}
+{"timestamp":"2026-06-15T18:07:17.775Z","level":"activity","message":"Note created","userId":"6a3036b0ac64e3688db7b1a2","module":"notes","data":{"title":"hii"}}
+{"timestamp":"2026-06-15T18:07:26.186Z","level":"activity","message":"AI summarize","userId":"6a3036b0ac64e3688db7b1a2","module":"notes","data":{"mode":"action_items","status":"groq"}}
+{"timestamp":"2026-06-15T18:07:30.205Z","level":"activity","message":"Note updated","userId":"6a3036b0ac64e3688db7b1a2","module":"notes","data":{"id":"6a303f554e497b7d7087e0cb"}}
+{"timestamp":"2026-06-15T18:07:42.623Z","level":"activity","message":"Note deleted","userId":"6a3036b0ac64e3688db7b1a2","module":"notes","data":{"id":"6a303f554e497b7d7087e0cb"}}
